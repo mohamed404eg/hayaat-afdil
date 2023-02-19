@@ -365,3 +365,12 @@ color: #252625;
 
 
 }
+
+@media screen and (width <= 320px ) { 
+  
+  
+    .h1-img img {
+        width: 200px;
+    }
+
+}
