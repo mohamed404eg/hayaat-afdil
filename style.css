@@ -413,5 +413,7 @@ position: relative;
 #section2 {
     height: auto;
 }
-
+#footer {
+margin-top:300px;
+}
 }
