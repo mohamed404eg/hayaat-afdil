@@ -33,6 +33,17 @@ let menuSpan = document.querySelector(".menu_span");
 
 let nav = document.querySelector(".nav");
 
+
+// section2-h2 animation  offsetTop 
+window.onscroll = addEventListener("scroll", section2 );
+
+let section2h2 = document.querySelector(".section2-h2");
+function section2() {
+    if(window.scrollY >= section2img.offsetTop -450){
+        section2h2.style.cssText = "animation:section2-h2 1s 1 ease-in ; ";
+    }
+};
+// section2-h2 animation  offsetTop 
 let head = document.querySelector("#head ");
 let menu_svg = document.querySelector(".menu_svg");
 
