@@ -264,6 +264,20 @@ position: relative;
     color: #fff;
 }
 
+.scrollup {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #FFB84C;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+
 @media screen and (width <= 600px ) {
 
     /* menu */
