@@ -54,3 +54,21 @@ menuSpan.addEventListener("click" , function() {
     menu_svg.classList.toggle("menu_svg_rotate");
     
 });
+
+// scroll up to button
+
+let scrollupjs = document.querySelector(".scrollup");
+window.onscroll = () => {
+    if(window.scrollY >= 700) {
+        scrollupjs.style.display = "block";
+    } else {
+        scrollupjs.style.display = "none";
+    }
+
+};
+
+scrollupjs.addEventListener ("click" , ()=>{
+    window.scrollTo(
+    { top:0,  behavior: "smooth",}
+    )
+})
